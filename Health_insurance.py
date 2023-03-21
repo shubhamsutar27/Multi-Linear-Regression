@@ -289,8 +289,15 @@ print('MAE: ',mae)
 print('Explained variance score: ',evs)
 
 
-# In[ ]:
 
 
+# Observations:
+# 1. There were no missing values in the dataset, only one duplicate value I found which I have removed.
+# 2. Dataset have almost equal number of male and female entries and also all 4 regions are well balanced in the dataset which will make model robust .
+# 3.  There are more records of people who smokes than those who don't. And it is been observed that those who smoke has to pay more charges because it is obvious that those who smoke are more prone to contract a disease. 
+# 4. There is no pattern observed for people who have added dependents (Children) in insurance policy.  Also most of the records are without dependents in dataset.
+# 5. I have applied linear regression model on given dataset and I have got coefficient of determination(r^2 value) as 0.82 which is good value for a linear model. 
+# 6. I have used regularization techniques to improve model performance further, but there was no significant difference in model performance even after adding regularization parameters.
+# 7. Overall model performing well on test data and it is good model to go with.  
 
 
